@@ -21,6 +21,11 @@
 		0FD13FBF19BDB0970029189E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD13FA119BDB0970029189E /* UIKit.framework */; };
 		0FD13FC719BDB0970029189E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FD13FC519BDB0970029189E /* InfoPlist.strings */; };
 		0FD13FC919BDB0970029189E /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD13FC819BDB0970029189E /* User_Data_Challenge_SolutionTests.m */; };
+		0FD13FD419BDB0CB0029189E /* DAUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD13FD319BDB0CB0029189E /* DAUserData.m */; };
+		0FD13FD919BDB9440029189E /* person1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FD13FD519BDB9440029189E /* person1.jpg */; };
+		0FD13FDA19BDB9440029189E /* person2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FD13FD619BDB9440029189E /* person2.jpg */; };
+		0FD13FDB19BDB9440029189E /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FD13FD719BDB9440029189E /* person3.jpg */; };
+		0FD13FDC19BDB9440029189E /* person4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FD13FD819BDB9440029189E /* person4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		0FD13FC419BDB0970029189E /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		0FD13FC619BDB0970029189E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FD13FC819BDB0970029189E /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		0FD13FD219BDB0CB0029189E /* DAUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAUserData.h; path = ../DAUserData.h; sourceTree = "<group>"; };
+		0FD13FD319BDB0CB0029189E /* DAUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAUserData.m; path = ../DAUserData.m; sourceTree = "<group>"; };
+		0FD13FD519BDB9440029189E /* person1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpg; sourceTree = "<group>"; };
+		0FD13FD619BDB9440029189E /* person2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpg; sourceTree = "<group>"; };
+		0FD13FD719BDB9440029189E /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		0FD13FD819BDB9440029189E /* person4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,8 @@
 				0FD13FAF19BDB0970029189E /* Main.storyboard */,
 				0FD13FB219BDB0970029189E /* DAViewController.h */,
 				0FD13FB319BDB0970029189E /* DAViewController.m */,
+				0FD13FD219BDB0CB0029189E /* DAUserData.h */,
+				0FD13FD319BDB0CB0029189E /* DAUserData.m */,
 				0FD13FB519BDB0970029189E /* Images.xcassets */,
 				0FD13FA419BDB0970029189E /* Supporting Files */,
 			);
@@ -126,6 +139,10 @@
 		0FD13FA419BDB0970029189E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0FD13FD519BDB9440029189E /* person1.jpg */,
+				0FD13FD619BDB9440029189E /* person2.jpg */,
+				0FD13FD719BDB9440029189E /* person3.jpg */,
+				0FD13FD819BDB9440029189E /* person4.jpg */,
 				0FD13FA519BDB0970029189E /* User Data Challenge Solution-Info.plist */,
 				0FD13FA619BDB0970029189E /* InfoPlist.strings */,
 				0FD13FA919BDB0970029189E /* main.m */,
@@ -229,8 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD13FDB19BDB9440029189E /* person3.jpg in Resources */,
+				0FD13FDA19BDB9440029189E /* person2.jpg in Resources */,
 				0FD13FB619BDB0970029189E /* Images.xcassets in Resources */,
 				0FD13FA819BDB0970029189E /* InfoPlist.strings in Resources */,
+				0FD13FDC19BDB9440029189E /* person4.jpg in Resources */,
+				0FD13FD919BDB9440029189E /* person1.jpg in Resources */,
 				0FD13FB119BDB0970029189E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD13FAA19BDB0970029189E /* main.m in Sources */,
+				0FD13FD419BDB0CB0029189E /* DAUserData.m in Sources */,
 				0FD13FB419BDB0970029189E /* DAViewController.m in Sources */,
 				0FD13FAE19BDB0970029189E /* DAAppDelegate.m in Sources */,
 			);

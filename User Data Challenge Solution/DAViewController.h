@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DAViewController : UIViewController
+@interface DAViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (strong, nonatomic) NSArray *users;
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end
